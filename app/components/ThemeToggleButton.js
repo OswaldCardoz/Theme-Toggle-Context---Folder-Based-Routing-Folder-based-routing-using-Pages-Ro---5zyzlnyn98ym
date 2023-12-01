@@ -9,7 +9,7 @@ const ThemeToggleButton = () => {
        <button 
        className={`btn btn-${theme} txt-${theme}`}
        onClick={toggleTheme}>
-        Toggle local theme to {theme === "light" ? "dark" :"light"}
+        Switch to {theme === "light" ? "dark" :"light"} theme
        </button>
     );
 
